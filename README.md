@@ -14,7 +14,7 @@ License for the specific language governing permissions and limitations
 under the License.
 -->
 
-The migrations in alembic_migrations/versions contain the changes needed to migrate
+The migrations in ``alembic_migrations/versions`` contain the changes needed to migrate
 between Sahara database revisions. A migration occurs by executing a script that
 details the changes needed to upgrade or downgrade the database. The migration scripts
 are ordered so that multiple scripts can run sequentially. The scripts are executed by
@@ -74,10 +74,10 @@ $ sahara-db-manage --config-file /path/to/sahara.conf stamp <revision>
 
 To verify that the timeline does branch, you can run this command:
 ```
-    $ sahara-db-manage --config-file /path/to/sahara.conf check_migration
+$ sahara-db-manage --config-file /path/to/sahara.conf check_migration
 ```
 
 If the migration path does branch, you can find the branch point via:
 ```
-    $ sahara-db-manage --config-file /path/to/sahara.conf history
+$ sahara-db-manage --config-file /path/to/sahara.conf history
 ```
