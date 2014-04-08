@@ -22,7 +22,7 @@ Sahara's migration wrapper which uses the Alembic library to manage the migratio
 supports migration from Icehouse or later.
 
 You can upgrade to the latest database version via:
-```
+```sh
 $ sahara-db-manage --config-file /path/to/sahara.conf upgrade head
 ```
 
