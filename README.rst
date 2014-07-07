@@ -14,7 +14,8 @@ These files are applied for Sahara's plugin of Apache Hadoop version 2.4.0
 
 Files were taken from here:
 
-* `core-default.xml <https://github.com/apache/hadoop-common/blob/release-2.4.0/hadoop-common-project/hadoop-common/src/main/resources/core-default.xml>`_
+* `core-default.xml <https://github.com/apache/hadoop-common
+/blob/release-2.4.0/hadoop-common-project/hadoop-common/src/main/resources/core-default.xml>`_
 * `hdfs-default.xml <https://github.com/apache/hadoop-common/blob/release-2.4.0/hadoop-hdfs-project/hadoop-hdfs/src/main/resources/hdfs-default.xml>`_
 * `yarn-default.xml <https://github.com/apache/hadoop-common/blob/release-2.4.0/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-common/src/main/resources/yarn-default.xml>`_
 * `mapred-default.xml <https://github.com/apache/hadoop-common/blob/release-2.4.0/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/resources/mapred-default.xml>`_
