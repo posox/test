@@ -8,7 +8,7 @@ Installs Ambari Management Console
 Environment Variables
 ---------------------
 
-  :AMBARI_VERSION
+  ::AMBARI_VERSION::
   :Required: No
   :Default: 2.0.0
   :Description: Version of Ambari Management Console to install
