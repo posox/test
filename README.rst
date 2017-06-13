@@ -1,6 +1,7 @@
-============= === ======= ======= ========== ======= === ============
-Component     HA  Scaling Logging Monitoring Ingress PV  LoadBalancer
-============= === ======= ======= ========== ======= === ============
+============= === ======= ======= ========== ======= === ============ =========
+Component     HA  Scaling Logging Monitoring Ingress PV  LoadBalancer Grafana
+                                                                      Dashboard
+============= === ======= ======= ========== ======= === ============ =========
 cassandra     yes yes     yes     yes        no      yes no
 elasticsearch yes yes     N/A     no         yes     yes yes
 elk-cluster   N/A N/A     N/A     no         N/A     N/A N/A
@@ -21,4 +22,4 @@ tweepub       N/A N/A     N/A     N/A        N/A     N/A N/A
 tweetics      N/A N/A     N/A     N/A        N/A     N/A N/A
 tweeviz       N/A N/A     N/A     N/A        N/A     N/A N/A
 zookeeper     yes yes     no      yes        N/A     yes no
-============= === ======= ======= ========== ======= === ============
+============= === ======= ======= ========== ======= === ============ =========
