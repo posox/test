@@ -1,8 +1,24 @@
-=====  =====  =======
-  A      B    A and B
-=====  =====  =======
-False  False  False
-True   False  False
-False  True   False
-True   True   True
-=====  =====  =======
+============= === ======= ======= ========== ======= === ============
+Component     HA  Scaling Logging Monitoring Ingress PV  LoadBalancer
+============= === ======= ======= ========== ======= === ============
+cassandra     yes yes     yes     yes        no      yes no
+elasticsearch yes yes     -       no         yes     yes yes
+elk-cluster   -   -       -       no         -       -   -
+grafana       no  ?       no      -          yes     yes yes
+hdfs          yes no      no      no         yes     yes yes
+iot-gen       -   -       -       -          -       -   -
+kafka         yes yes     yes     yes        -       yes no
+kibana        yes yes     -       no         yes     -   yes
+logstash      yes yes     -       no         -       -   no
+mariadb       no  no      yes     yes        -       yes yes
+mongodb       yes yes     no      no         -       no  yes
+postgresql    no  no      no      yes        -       yes yes
+prometheus    yes yes     no      -          yes     yes yes
+rabbitmq      yes yes     no      yes        yes     yes yes
+redis         yes yes     no      no         -       yes no
+spark         yes yes     yes     yes        yes     -   yes
+tweepub       -   -       -       -          -       -   -
+tweetics      -   -       -       -          -       -   -
+tweeviz       -   -       -       -          -       -   -
+zookeeper     yes yes     no      yes        -       yes no
+============= === ======= ======= ========== ======= === ============
