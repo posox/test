@@ -1,8 +1,8 @@
 ============= === ======= ======= ========== ======= === ============
 Component     HA  Scaling Logging Monitoring Ingress PV  LoadBalancer
 ============= === ======= ======= ========== ======= === ============
-cassandra     yes yes     yes     yes        no      yes no
-elasticsearch yes yes     -       no         yes     yes yes
+cassandra     x   yes     yes     yes        no      yes no
+elasticsearch +   yes     -       no         yes     yes yes
 elk-cluster   -   -       -       no         -       -   -
 grafana       no  ?       no      -          yes     yes yes
 hdfs          yes no      no      no         yes     yes yes
